@@ -1,0 +1,55 @@
+{
+  "name": "agency",
+  "version": "0.0.0",
+  "description": "Browser based application framework",
+  "main": "dist/index.js",
+  "scripts": {
+    "prebuild": "npm run clean && npm run lint",
+    "build": "webpack",
+    "prebuild-nofix": "npm run clean && npm run lint-nofix",
+    "build-nofix": "webpack",
+    "clean": "rimraf ./dist ./coverage",
+    "clean-full": "rimraf ./dist, ./coverage, ./.cache, ./node_modules",
+    "debug": "node --debug-brk --inspect ./node_modules/jest/bin/jest -i",
+    "prelint": "npm run type-check",
+    "lint": "eslint src/ --ext .ts --fix",
+    "prelint-nofix": "npm run type-check",
+    "lint-nofix": "eslint src/ --ext .ts",
+    "test": "jest --coverage",
+    "type-check": "tsc -p tsconfig.json --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/final-hill/agency.git"
+  },
+  "author": "Michael L Haufe",
+  "license": "AGPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/final-hill/agency/issues"
+  },
+  "homepage": "https://github.com/final-hill/agency#readme",
+  "devDependencies": {
+    "@types/jest": "^24.9.1",
+    "@types/node": "^13.11.1",
+    "@typescript-eslint/eslint-plugin": "^2.27.0",
+    "@typescript-eslint/parser": "^2.27.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-header": "^3.0.0",
+    "eslint-plugin-import": "^2.20.2",
+    "jest": "^25.3.0",
+    "jest-junit": "^8.0.0",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^25.3.1",
+    "ts-loader": "^6.2.2",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@final-hill/decorator-contracts": "^0.18.1"
+  },
+  "files": [
+    "dist"
+  ]
+}
