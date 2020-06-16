@@ -1,2 +1,2 @@
-# agency
+# Agency
 Browser based application framework
