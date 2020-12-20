@@ -50,10 +50,9 @@
         // "emitDecoratorMetadata": true,         /* Enables experimental support for emitting type metadata for decorators. */
     },
     "exclude": [
-        "coverage",
-        "dist",
-        "jest.config.js",
-        "node_modules",
-        "scripts"
+        "./coverage",
+        "./dist",
+        "jest.config.js.disabled",
+        "./node_modules"
     ]
 }
