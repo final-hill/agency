@@ -1,0 +1,10 @@
+.application {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.application-content {
+    height: 100%;
+    margin: 0;
+}

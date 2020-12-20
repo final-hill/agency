@@ -5,7 +5,9 @@
  * @see <https://spdx.org/licenses/AGPL-3.0-only.html>
  */
 
-import Agent from './Agent';
-import Application from './Application';
+enum LayoutOptions {
+    VERTICAL = 'vertical',
+    HORIZONTAL = 'horizontal'
+}
 
-export {Agent, Application};
+export default LayoutOptions;
