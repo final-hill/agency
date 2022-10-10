@@ -1,9 +1,13 @@
 {
+    "cSpell.ignorePaths": [
+        "node_modules",
+        "package.json",
+        ".eslintrc.json"
+    ],
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
     },
-    "files.associations": {
-        "**/azure/*.yml": "azure-pipelines"
-    },
-    "typescript.tsdk": "node_modules\\typescript\\lib"
+    "editor.formatOnSave": true,
+    "files.eol": "\r\n",
+    "typescript.tsdk": "node_modules/typescript/lib",
 }

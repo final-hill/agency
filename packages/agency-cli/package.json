@@ -1,0 +1,27 @@
+{
+    "name": "@final-hill/agency-cli",
+    "version": "0.1.0",
+    "description": "The Command Line Interface (CLI) for the Agency Framework",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "tsc",
+        "clean": "rimraf ./dist",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Michael L Haufe <michael.haufe@final-hill.com> (https://final-hill.com)",
+    "license": "AGPL-3.0-only",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/final-hill/agency/agency.git",
+        "directory": "agency-cli"
+    },
+    "engines": {
+        "node": ">=16.0.0"
+    },
+    "peerDependencies": {
+        "@final-hill/agency": "=0.1.0"
+    },
+    "devDependencies": {
+        "ts-node": "^10.9.1"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "private": true,
+    "description": "The Agency Framework",
+    "type": "module",
+    "scripts": {
+        "build": "tsc",
+        "clean": "rimraf ./dist",
+        "prelint": "npm run type-check",
+        "lint": "eslint src/ --ext .ts --fix",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "type-check": "tsc -p tsconfig.json --noEmit"
+    },
+    "dependencies": {
+        "@final-hill/agency": "*"
+    },
+    "devDependencies": {
+        "typescript": "^4.8.4"
+    }
+}
