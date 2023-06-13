@@ -6,8 +6,7 @@
  */
 
 import { Contract, Contracted, extend } from '@final-hill/decorator-contracts';
-import { agentContract } from '../../agent/Agent';
-import { Agent } from '../../index';
+import { Agent, agentContract } from '../../agent/Agent';
 
 export interface ContainerOptions {
     children?: Agent[];

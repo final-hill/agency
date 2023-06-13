@@ -5,7 +5,7 @@
  * @see <https://spdx.org/licenses/AGPL-3.0-only.html>
  */
 
-import { Agent } from '../../index';
+import { Agent } from '../../agent/Agent';
 
 export interface TextOptions {
     text: string;

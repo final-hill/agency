@@ -16,7 +16,7 @@
         "project": [
             "./packages/agency/tsconfig.json",
             "./packages/agency-cli/tsconfig.json",
-            "./packages/examples/hello-world/tsconfig.json"
+            "./packages/example-hello-world/tsconfig.json"
         ],
         "sourceType": "module"
     },

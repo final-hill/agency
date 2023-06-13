@@ -5,6 +5,6 @@
  * @see <https://spdx.org/licenses/AGPL-3.0-only.html>
  */
 
-import { View } from '../../index';
+import { View } from '../../agent/View';
 
 export abstract class ContainerView extends View { }

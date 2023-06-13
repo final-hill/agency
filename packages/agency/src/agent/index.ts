@@ -5,6 +5,6 @@
  * @see <https://spdx.org/licenses/AGPL-3.0-only.html>
  */
 
-export { Agent } from './agent/Agent';
-export { Model } from './agent/Model';
-export { View } from './agent/View';
+export { Agent } from './Agent';
+export { Model } from './Model';
+export { View } from './View';

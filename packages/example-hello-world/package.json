@@ -11,7 +11,7 @@
         "type-check": "tsc -p tsconfig.json --noEmit"
     },
     "dependencies": {
-        "@final-hill/agency": "*"
+        "@final-hill/agency": "file:final-hill-agency-0.1.0.tgz"
     },
     "devDependencies": {
         "typescript": "^4.8.4"
